@@ -6,6 +6,7 @@ import SearchBar from "../components/SearchBar/SearchBar";
 import Zoom from "../components/Zoom/Zoom";
 import Header from "../components/Header/Header";
 import Board from "../components/Whiteboard-Canvas/Board";
+import CommentContainer from "../components/comments/CommentContainer";
 
 function Whiteboard() {
   return (
@@ -14,6 +15,7 @@ function Whiteboard() {
       <Header />
       {/* <WhiteboardCanvas /> */}
       <Board />
+      <CommentContainer />
       <ToolBar />
       <Zoom />
     </div>
