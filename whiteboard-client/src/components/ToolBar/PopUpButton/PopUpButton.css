@@ -1,10 +1,10 @@
-.popup-menu-container {
+/*.popup-menu-container {
   position: relative;
 }
 
 .button {
-    background-color: transparent;
-    border:none;
+  background-color: transparent;
+  border: none;
 }
 
 .popup-menu {
@@ -16,12 +16,42 @@
   bottom: 5px;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
-  transition: transform 0.2s;
 }
 
 .popup-menu.shown {
   transform: scale(1);
-  transform: translate(-50%,-80px);
+  transform: translate(-50%, -80px);
   left: 50%;
-  
+  transform: translate(44%, -160%);
+  left: 50%;
+  -webkit-transform: translate(44%, -160%);
+  -moz-transform: translate(44%, -160%);
+  -ms-transform: translate(44%, -160%);
+  -o-transform: translate(44%, -160%);
+}*/
+
+.popup-menu-container {
+  position: relative;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+}
+
+.popup-menu {
+  position: absolute;
+  z-index: 3;
+  transform: scale(0);
+  transform-origin: bottom left;
+  min-width: 10rem;
+  bottom: 5px;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.popup-menu.shown {
+  transform: scale(1);
+  transform: translate(-50%, -80px);
+  left: 50%;
 }

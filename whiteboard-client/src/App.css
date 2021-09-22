@@ -1,5 +1,10 @@
-.App {
-  text-align: center;
+.Canvas {
+  background: linear-gradient(rgba(251, 255, 254, 0.98), rgba(251, 255, 254, 0.98)), url(./Image/background.png) center center repeat;
+  height: 100vh;
+}
+
+.top-bar {
+  background-color: #FBFFFE;
 }
 
 .App-header {
