@@ -8,8 +8,4 @@ const TimeStamp = () => {
     )
 }
 
-<<<<<<< HEAD
 export default TimeStamp
-=======
-export default TimeStamp
->>>>>>> 3cf7fb3277323c5640c13fcb964a8c35821c0fb7

@@ -12,6 +12,7 @@ import Header from "./components/TopBar/Header/Header";
 // import CollabData from "../components/Collaborators/collabData.js";
 
 import Canvas from "./components/Canvas/Canvas";
+import CommentContainer from "./components/comments/CommentContainer";
 
 const Temp = styled.div`
   display: grid;
@@ -75,6 +76,7 @@ class Whiteboard extends Component {
           <Header />
         </div>
         <Canvas defaultPenColor={this.state.defaultColor} />
+        <CommentContainer />
         <ToolBar changeColor={this.changeColor} changeColorToGrey={this.changeColorToGrey} changeColorToBlue={this.changeColorToBlue} changeColorToGreen={this.changeColorToGreen} changeColorToYellow={this.changeColorToYellow} />
         <Zoom />
       </div>

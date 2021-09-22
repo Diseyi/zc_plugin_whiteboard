@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React, { useState } from "react";
 import { Message } from "./Message";
 import avatar1 from "./assets/avatar1.png";
@@ -34,23 +33,3 @@ const MessageContainer = () => {
 };
 
 export default MessageContainer;
-=======
-import React, {useState} from 'react'
-import { Message } from './Message'
-
-const MessageContainer = () => {
-
-
-    return (
-        <div>
-            <div className="message-container">
-                <Message />
-                <Message />
-            </div>
-            
-        </div>
-    )
-}
-
-export default MessageContainer
->>>>>>> 3cf7fb3277323c5640c13fcb964a8c35821c0fb7
